@@ -3,7 +3,7 @@ python:
   - "2.7"
 install:
   - pip install pytest
+  - pip install pytest-reqs
+  - pip install pytest-pep8
 script:
   - py.test
-  - pytest-reqs
-  - pytest-pep8
