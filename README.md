@@ -88,12 +88,12 @@
 ## Rebasing
 |Git Command       |Summary     |
 |------------------|------------|
-|git rebase <some local branch name>|alter history. replay all of my commits on top of current local version of some other branch. Must `git push -f` (force push to commit to remote) to apply this to the remote|
+|`git rebase <some local branch name>`|alter history. replay all of my commits on top of current local version of some other branch. Must `git push -f` (force push to commit to remote) to apply this to the remote|
 
 ## Squashing
 |Git Command       |Summary     |
 |------------------|------------|
-|git rebase -i <some local branch name or commit id>|alter history. combine commits, delete commits, reword commit messages. Must `git push -f` (force push to commit to remote) to apply this to the remote|
+|`git rebase -i <some local branch name or commit id>`|alter history. combine commits, delete commits, reword commit messages. Must `git push -f` (force push to commit to remote) to apply this to the remote|
 
 ## The Reflog
 |Git Command       |Summary     |
