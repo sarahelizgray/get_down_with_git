@@ -30,6 +30,7 @@
 |git add -p        |cycle though all tracked files and inspect changes one at a time|
 |git diff          |show me, line by line, what has changed in tracked files that aren't added|
 |git diff --cached |show me, line by line, what has changed in added files|
+|git commit --ammend|alter the commit message of a staged commit|
 
 
 # SEE HOW IT IMPROVES YOUR WORKFLOW
@@ -67,17 +68,38 @@
 |git push -u origin <some remote branch name>|delete a remote branch|
 
 ##Merging and Resolving Merge Conflicts
+|git merge <some local branch name>|apply commits from some other the local branch to the current branch you are in|
+
+##The Stash
+|Git Command       |Summary     |
+|------------------|------------|
+|git stash|put any tracked changes into stash|
+|git stash save "<some note about what is stashed>"|leave yourself a note about what you are stashing|
+|git stash list|see a list of what is stashed|
+|git stash pop|take the first item off the top of the stash|
+|git stash clear|wipe out the stash|
 
 
-merging and resolving merge conflicts 
-stash
-squashing 
-rebasing
-git reflog
-working with different forks maybe 
+##Rebasing
+|Git Command       |Summary     |
+|------------------|------------|
+|git rebase <some local branch name>|alter history. replay all of my commits on top of current local version of some other branch. Must `git push -f` (force push to commit to remote) to apply this to the remote|
+
+##Squashing
+|Git Command       |Summary     |
+|------------------|------------|
+|git rebase -i <some local branch name or commit id>|alter history. combine commits, delete commits, reword commit messages. Must `git push -f` (force push to commit to remote) to apply this to the remote|
+
+##The Reflog
+|Git Command       |Summary     |
+|------------------|------------|
+|git reflog|see the history of branches across the whole repo
+
 
 #FOR OPEN SOURCE CONTRIBUTIONS: 
 Branches are used to manage not just feature creation but also the life cycle and continued development of many projects. 
 Shout out to how open source projects like the development of Rust http://2016.phillyemergingtech.com/session/stability-without-stagnation-lessons-learned-shipping-ember/.
 SUMMARY: It's a handy, essential tool that you can use today to improve your development experience. 
 
+#Resources
+* the scm
