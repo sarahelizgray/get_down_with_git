@@ -3,7 +3,6 @@
 ![dance dance dance](http://i.giphy.com/l46C8nSNYWU567Hs4.gif)
 
 # OVERVIEW
-<<<<<<< HEAD
 * what is source control and why is it important.
 * Touch on other source control options and hosts.
 * Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process.
@@ -16,16 +15,7 @@
 * Gets stuff off your machine!
 * Build your portfolio for interviewing!
 
-## commit idiom
-=======
-* what is source control and why is it important. 
-* Touch on other source control options and hosts. 
-* Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process. 
-* It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did. Great for your upcoming team project!
-
-#REVIEW: 
-* review of basic git idiom 
->>>>>>> c1e804f401715b49155c289175b369991cbada10
+## Review of basic git idiom 
 |Git Command       |Summary     |
 |------------------|------------|
 |git pull          |get most recent commits from the branch you are on|
@@ -34,10 +24,9 @@
 |git push          |push all of my local commits up to the remote branch on the remote repo|
 |git status        |see status of local repo, what's changed, what's committed, what's new|
 
-*some tips and tricks
+##Some tips and tricks
 |Git Command       |Summary     |
 |------------------|------------|
-<<<<<<< HEAD
 |git add -p        |cycle though all tracked files and inspect changes one at a time|
 |git diff          |show me, line by line, what has changed in tracked files that aren't added|
 |git diff --cached |show me, line by line, what has changed in added files|
@@ -48,6 +37,7 @@
 * check out the log, see that you've left yourself some notes
 * revert back to some previous state easily
 
+## Git Log
 |Git Command       |Summary     |
 |------------------|------------|
 |git log           |show long form commit info|
@@ -90,7 +80,6 @@
 |git stash pop|take the first item off the top of the stash|
 |git stash clear|wipe out the stash|
 
-
 ##Rebasing
 |Git Command       |Summary     |
 |------------------|------------|
@@ -106,23 +95,6 @@
 |------------------|------------|
 |git reflog|see the history of branches across the whole repo
 
-=======
-|git add -p        |
-
-SEE HOW IT IMPROVES YOUR WORKFLOW: companion to existing best practices around "test a little, write a little". 
-Gives you lots of beak points. 'git reset' to previous working commit. 
-'git log', 'git reflog'. 
-Get's stuff off your machine! 
-Build your portfolio for interviewing!
-
-#FOR YOUR TEAM/PROFESSIONALLY: 
-git flow
-branch management 
-merging and resolving merge conflicts 
-stash
-squashing 
-rebasing
-working with different forks maybe 
 
 
 #FOR OPEN SOURCE CONTRIBUTIONS: 
