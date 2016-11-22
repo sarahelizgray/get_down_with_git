@@ -81,6 +81,16 @@
 |`git branch -D <some local branch name>`|force delete the local branch|
 |`git push -u origin <some remote branch name>`|delete a remote branch|
 
+## Pull Requests
+* See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
+* Hallmarks of a good PR conversation:
+  * PRs are opened with meaningful titles and descriptions where needed.
+  * Reviewers are specific when requesting changes.
+  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
+  * Nice! Remember, this person is trying to make your code better.
+  * Every concern is addressed and addressed means at least discussed.
+  * Resolved quickly. Try to not pick up new work until your PR is merged. 
+
 ## Merging and Resolving Merge Conflicts
 |`git merge <some local branch name>`|apply commits from some other the local branch to the current branch you are in|
 
@@ -108,16 +118,6 @@
 |------------------|------------|
 |`git reflog`|see the history of branches across the whole repo
 
-## Pull Requests
-* See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
-* hallmarks of a good PR conversation:
-  * PRs are opened with meaningful titles and descriptions where needed.
-  * Reviewers are specific when requesting changes.
-  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
-  * Nice! Remember, this person is trying to make your code better.
-  * Every concern is addressed and addressed means at least discussed.
-  * Resolved quickly. Try to not pick up new work until your PR is merged. 
-
 ***
 
 # For Open Source Contributions: 
@@ -134,4 +134,5 @@
 * [https://git-scm.com/doc](SCM documentation, authoritative docs)
 * [https://github.com/robbyrussell/oh-my-zsh](zshell, theme used is eastwood)
 * [https://www.sublimetext.com/](sublime text editor)
+* [https://travis-ci.org/](travis CI)
 
