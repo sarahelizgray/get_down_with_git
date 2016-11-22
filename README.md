@@ -134,4 +134,5 @@
 * [https://git-scm.com/doc](SCM documentation, authoritative docs)
 * [https://github.com/robbyrussell/oh-my-zsh](zshell, theme used is eastwood)
 * [https://www.sublimetext.com/](sublime text editor)
+* [https://travis-ci.org/](travis CI)
 
