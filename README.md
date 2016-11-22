@@ -48,7 +48,11 @@
 
 #FOR YOUR TEAM/PROFESSIONALLY:
 ##Git Flow
+## Shared Repo
+![http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/](assets/git-history.png)
 
+##Fork and Pull
+![http://blog.ieeesoftware.org/2015/12/variability-management-using-github.html](assets/fork_and_pull.png)
 
 ##Branch Management
 ###branch creation idiom
