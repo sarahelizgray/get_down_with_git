@@ -5,3 +5,5 @@ install:
   - pip install -U pip wheel
   - pip wheel -r requirements/_travis.txt
   - pip install -r requirements/_travis.txt
+script:
+  - py.test -c travis.cfg --durations=10
