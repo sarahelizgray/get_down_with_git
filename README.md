@@ -50,8 +50,12 @@
 |`git reset --hard <some commit id>`|turn back time on my local machine to some previous commit id|
 |`git reset --hard HEAD@{<number of commits back>}`|turn back time on my local machine to some number of commits back|
 
+***
 
 #For Your Team/Professionally:
+* Requires a plan, communication, and requirements beforehand. Usually branches and pull requests are small and centered on a specific goal like implementing a feature
+* Requires
+
 ## Git Flow
 ## Fork and Pull
 ![http://blog.ieeesoftware.org/2015/12/variability-management-using-github.html](assets/fork_and_pull.png)
@@ -104,6 +108,17 @@
 |------------------|------------|
 |`git reflog`|see the history of branches across the whole repo
 
+## Pull Requests
+* See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
+* hallmarks of a good PR conversation:
+  * PRs are opened with meaningful titles and descriptions where needed.
+  * Reviewers are specific when requesting changes.
+  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
+  * Nice! Remember, this person is trying to make your code better.
+  * Every concern is addressed and addressed means at least discussed.
+  * Resolved quickly. Try to not pick up new work until your PR is merged. 
+
+***
 
 # For Open Source Contributions: 
 * Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects. 
