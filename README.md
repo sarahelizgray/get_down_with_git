@@ -19,19 +19,19 @@
 ## Review of basic git idiom 
 |Git Command       |Summary     |
 |------------------|------------|
-|git pull          |get most recent commits from the branch you are on|
-|git add <filename>|this file or all changes in this file to staging|
-|git commit -m     |combine all things in staging into a commit bundle with this message on my local machine|
-|git push          |push all of my local commits up to the remote branch on the remote repo|
-|git status        |see status of local repo, what's changed, what's committed, what's new|
+|`git pull`          |get most recent commits from the branch you are on|
+|`git add <filename>`|this file or all changes in this file to staging|
+|`git commit -m`     |combine all things in staging into a commit bundle with this message on my local machine|
+|`git push`          |push all of my local commits up to the remote branch on the remote repo|
+|`git status`        |see status of local repo, what's changed, what's committed, what's new|
 
 ## Some Tips and Tricks
 |Git Command       |Summary     |
 |------------------|------------|
-|git add -p        |cycle though all tracked files and inspect changes one at a time|
-|git diff          |show me, line by line, what has changed in tracked files that aren't added|
-|git diff --cached |show me, line by line, what has changed in added files|
-|git commit --amend|alter the commit message of a staged commit|
+|`git add -p`       |cycle though all tracked files and inspect changes one at a time|
+|`git diff`          |show me, line by line, what has changed in tracked files that aren't added|
+|`git diff --cached` |show me, line by line, what has changed in added files|
+|`git commit --amend`|alter the commit message of a staged commit|
 
 
 # How it Improves Your Workflow
@@ -41,10 +41,10 @@
 ## Git Log
 |Git Command       |Summary     |
 |------------------|------------|
-|git log           |show long form commit info|
-|git log --pretty=oneline| show short form commit info|
-|git reset --hard <some commit id>|turn back time on my local machine to some previous commit id|
-|git reset --hard HEAD@{<number of commits back>}|turn back time on my local machine to some number of commits back|
+|`git log`           |show long form commit info|
+|`git log --pretty=oneline`| show short form commit info|
+|`git reset --hard <some commit id>`|turn back time on my local machine to some previous commit id|
+|`git reset --hard HEAD@{<number of commits back>}`|turn back time on my local machine to some number of commits back|
 
 
 #For Your Team/Professionally:
@@ -59,31 +59,31 @@
 ### branch creation idiom
 |Git Command       |Summary     |
 |------------------|------------|
-|git branch <some branch name>|create a branch on your local machine|
-|git push -u origin <some branch name>|push your local branch to the remote|
-|git branch|see all my local branches|
-|git checkout <some branch name>|switch to a local branch|
+|`git branch <some branch name>`|create a branch on your local machine|
+|`git push -u origin <some branch name>`|push your local branch to the remote|
+|`git branch|see all my local branches`|
+|`git checkout <some branch name>`|switch to a local branch|
 
 ### branch management commands
 |Git Command       |Summary     |
 |------------------|------------|
-|git branch -a|see my local and remote branches|
-|git checkout --track origin<some remote branch name>|get a remote branch on your local machine|
-|git branch -d <some local branch name>|delete the local branch|
-|git branch -D <some local branch name>|force delete the local branch|
-|git push -u origin <some remote branch name>|delete a remote branch|
+|`git branch -a`|see my local and remote branches|
+|`git checkout --track origin<some remote branch name>`|get a remote branch on your local machine|
+|`git branch -d <some local branch name>`|delete the local branch|
+|`git branch -D <some local branch name>`|force delete the local branch|
+|`git push -u origin <some remote branch name>`|delete a remote branch|
 
 ## Merging and Resolving Merge Conflicts
-|git merge <some local branch name>|apply commits from some other the local branch to the current branch you are in|
+|`git merge <some local branch name>`|apply commits from some other the local branch to the current branch you are in|
 
 ## The Stash
 |Git Command       |Summary     |
 |------------------|------------|
-|git stash|put any tracked changes into stash|
-|git stash save "<some note about what is stashed>"|leave yourself a note about what you are stashing|
-|git stash list|see a list of what is stashed|
-|git stash pop|take the first item off the top of the stash|
-|git stash clear|wipe out the stash|
+|`git stash`|put any tracked changes into stash|
+|`git stash save "<some note about what is stashed>"`|leave yourself a note about what you are stashing|
+|`git stash list`|see a list of what is stashed|
+|`git stash pop`|take the first item off the top of the stash|
+|`git stash clear`|wipe out the stash|
 
 ## Rebasing
 |Git Command       |Summary     |
@@ -98,7 +98,7 @@
 ## The Reflog
 |Git Command       |Summary     |
 |------------------|------------|
-|git reflog|see the history of branches across the whole repo
+|`git reflog`|see the history of branches across the whole repo
 
 
 # For Open Source Contributions: 
