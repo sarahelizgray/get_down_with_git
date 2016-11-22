@@ -110,7 +110,7 @@
 
 ## Pull Requests
 * See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
-* hallmarks of a good PR conversation:
+* Hallmarks of a good PR conversation:
   * PRs are opened with meaningful titles and descriptions where needed.
   * Reviewers are specific when requesting changes.
   * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
