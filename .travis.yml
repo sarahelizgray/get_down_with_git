@@ -6,3 +6,4 @@ install:
 script:
   - py.test
   - pytest-reqs
+  - pytest-pep8
