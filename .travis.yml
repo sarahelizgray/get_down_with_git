@@ -2,8 +2,6 @@ language: python
 python:
   - "2.7"
 install:
-  - pip install -U pip wheel
-  - pip wheel -r requirements/_travis.txt
-  - pip install -r requirements/_travis.txt
+  - pip install pytest
 script:
-  - py.test -c travis.cfg --durations=10
+  - pytest
