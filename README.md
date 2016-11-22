@@ -8,6 +8,8 @@
 * Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process.
 * It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did. Great for your upcoming team project!
 
+***
+
 # Review
 * Review of basic git idiom
 * Companion to existing best practices around "test a little, write a little."
@@ -34,9 +36,10 @@
 |`git diff --cached` |show me, line by line, what has changed in added files|
 |`git commit --amend`|alter the commit message of a staged commit|
 
+***
 
 # How it Improves Your Workflow
-* check out the log, see that you've left yourself some notes
+* Check out the log, see that you've left yourself some notes
 * Gives you lots of beak points. 'git reset' to previous working commit.
 
 ## Git Log
