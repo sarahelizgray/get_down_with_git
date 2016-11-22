@@ -115,4 +115,5 @@
 * [https://try.github.io/](Try Git, an interactive git game)
 * [https://git-scm.com/doc](SCM documentation, authoritative docs)
 * [https://github.com/robbyrussell/oh-my-zsh](zshell, theme used is eastwood)
+* [https://www.sublimetext.com/](sublime text editor)
 
