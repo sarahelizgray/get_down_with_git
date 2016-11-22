@@ -1,4 +1,4 @@
-# Get Down with git [![Build Status](https://travis-ci.org/sarahelizgray/get_down_with_git.svg?branch=master)](https://travis-ci.org/sarahelizgray/get_down_with_git)
+# Get Down with Git [![Build Status](https://travis-ci.org/sarahelizgray/get_down_with_git.svg?branch=master)](https://travis-ci.org/sarahelizgray/get_down_with_git)
 
 ![dance dance dance](http://i.giphy.com/l46C8nSNYWU567Hs4.gif)
 
@@ -19,11 +19,12 @@
 ## Review of basic git idiom 
 |Git Command       |Summary     |
 |------------------|------------|
+|`git status`        |see status of local repo, what's changed, what's committed, what's new|
 |`git pull`          |get most recent commits from the branch you are on|
 |`git add <filename>`|this file or all changes in this file to staging|
 |`git commit -m`     |combine all things in staging into a commit bundle with this message on my local machine|
 |`git push`          |push all of my local commits up to the remote branch on the remote repo|
-|`git status`        |see status of local repo, what's changed, what's committed, what's new|
+
 
 ## Some Tips and Tricks
 |Git Command       |Summary     |
