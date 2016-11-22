@@ -2,18 +2,19 @@
 
 ![dance dance dance](http://i.giphy.com/l46C8nSNYWU567Hs4.gif)
 
-# OVERVIEW
-* what is source control and why is it important.
+# Overview
+* What is source control and why is it important.
 * Touch on other source control options and hosts.
 * Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process.
 * It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did. Great for your upcoming team project!
 
-#REVIEW:
-* review of basic git idiom
-* Gives you lots of beak points. 'git reset' to previous working commit.
-* companion to existing best practices around "test a little, write a little."
+# Review
+* Review of basic git idiom
+* Companion to existing best practices around "test a little, write a little."
 * Gets stuff off your machine!
 * Build your portfolio for interviewing!
+
+![the git idiom](assets/git_idiom.png)
 
 ## Review of basic git idiom 
 |Git Command       |Summary     |
@@ -24,18 +25,18 @@
 |git push          |push all of my local commits up to the remote branch on the remote repo|
 |git status        |see status of local repo, what's changed, what's committed, what's new|
 
-##Some tips and tricks
+## Some Tips and Tricks
 |Git Command       |Summary     |
 |------------------|------------|
 |git add -p        |cycle though all tracked files and inspect changes one at a time|
 |git diff          |show me, line by line, what has changed in tracked files that aren't added|
 |git diff --cached |show me, line by line, what has changed in added files|
-|git commit --ammend|alter the commit message of a staged commit|
+|git commit --amend|alter the commit message of a staged commit|
 
 
-# SEE HOW IT IMPROVES YOUR WORKFLOW
+# How it Improves Your Workflow
 * check out the log, see that you've left yourself some notes
-* revert back to some previous state easily
+* Gives you lots of beak points. 'git reset' to previous working commit.
 
 ## Git Log
 |Git Command       |Summary     |
@@ -46,16 +47,16 @@
 |git reset --hard HEAD@{<number of commits back>}|turn back time on my local machine to some number of commits back|
 
 
-#FOR YOUR TEAM/PROFESSIONALLY:
-##Git Flow
-##Fork and Pull
+#For Your Team/Professionally:
+## Git Flow
+## Fork and Pull
 ![http://blog.ieeesoftware.org/2015/12/variability-management-using-github.html](assets/fork_and_pull.png)
 
 ## Shared Repo
 ![http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/](assets/git-history.png)
 
-##Branch Management
-###branch creation idiom
+## Branch Management
+### branch creation idiom
 |Git Command       |Summary     |
 |------------------|------------|
 |git branch <some branch name>|create a branch on your local machine|
@@ -63,7 +64,7 @@
 |git branch|see all my local branches|
 |git checkout <some branch name>|switch to a local branch|
 
-###branch management commands
+### branch management commands
 |Git Command       |Summary     |
 |------------------|------------|
 |git branch -a|see my local and remote branches|
@@ -72,10 +73,10 @@
 |git branch -D <some local branch name>|force delete the local branch|
 |git push -u origin <some remote branch name>|delete a remote branch|
 
-##Merging and Resolving Merge Conflicts
+## Merging and Resolving Merge Conflicts
 |git merge <some local branch name>|apply commits from some other the local branch to the current branch you are in|
 
-##The Stash
+## The Stash
 |Git Command       |Summary     |
 |------------------|------------|
 |git stash|put any tracked changes into stash|
@@ -84,28 +85,32 @@
 |git stash pop|take the first item off the top of the stash|
 |git stash clear|wipe out the stash|
 
-##Rebasing
+## Rebasing
 |Git Command       |Summary     |
 |------------------|------------|
 |git rebase <some local branch name>|alter history. replay all of my commits on top of current local version of some other branch. Must `git push -f` (force push to commit to remote) to apply this to the remote|
 
-##Squashing
+## Squashing
 |Git Command       |Summary     |
 |------------------|------------|
 |git rebase -i <some local branch name or commit id>|alter history. combine commits, delete commits, reword commit messages. Must `git push -f` (force push to commit to remote) to apply this to the remote|
 
-##The Reflog
+## The Reflog
 |Git Command       |Summary     |
 |------------------|------------|
 |git reflog|see the history of branches across the whole repo
 
 
+# For Open Source Contributions: 
+* Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects. 
+* Shout out to open source projects like the development of Rust and Ember http://2016.phillyemergingtech.com/session/stability-without-stagnation-lessons-learned-shipping-ember/.
 
-#FOR OPEN SOURCE CONTRIBUTIONS: 
-Branches are used to manage not just feature creation but also the life cycle and continued development of many projects. 
-Shout out to how open source projects like the development of Rust http://2016.phillyemergingtech.com/session/stability-without-stagnation-lessons-learned-shipping-ember/.
-SUMMARY: It's a handy, essential tool that you can use today to improve your development experience. 
+![From Yahuda's talk](assets/ember.jpg)
 
-#Resources
-* the scm
+# Summary 
+* It's a handy, essential tool that you can use today to improve your development experience. 
+
+# Resources
+* [https://try.github.io/](Try Git, an interactive git game)
+* [https://git-scm.com/doc](SCM documentation, authoritative docs)
 
