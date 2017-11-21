@@ -60,6 +60,14 @@
 ## Fork and Pull
 ![http://blog.ieeesoftware.org/2015/12/variability-management-using-github.html](assets/fork_and_pull.png)
 
+|Git Command       |Summary     |
+|------------------|------------|
+|`git remote -v`| see the verbose name of my remote|
+|`git remote show <shortname>`| detailed info on your remote |
+|`git remote <shortname> <url>`| explicitly add a remote|
+|`git fetch <remote>`| contribute to a specific remote|
+
+
 ## Shared Repo
 ![http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/](assets/git-history.png)
 
