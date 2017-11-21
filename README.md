@@ -6,7 +6,7 @@
 * What is source control and why is it important.
 * Touch on other source control options and hosts.
 * Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process.
-* It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did. Great for your upcoming team project!
+* It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did.
 
 ***
 
@@ -18,7 +18,7 @@
 
 ![the git idiom](assets/git_idiom.png)
 
-## Review of basic git idiom 
+## Review of basic git idiom
 |Git Command       |Summary     |
 |------------------|------------|
 |`git status`        |see status of local repo, what's changed, what's committed, what's new|
@@ -36,11 +36,12 @@
 |`git diff --cached` |show me, line by line, what has changed in added files|
 |`git commit --amend`|alter the commit message of a staged commit|
 
+
 ***
 
 # How it Improves Your Workflow
 * Check out the log, see that you've left yourself some notes
-* Gives you lots of beak points. 'git reset' to previous working commit.
+* Gives you lots of break points. 'git reset' to previous working commit.
 
 ## Git Log
 |Git Command       |Summary     |
@@ -48,17 +49,24 @@
 |`git log`           |show long form commit info|
 |`git log --pretty=oneline`| show short form commit info|
 |`git reset --hard <some commit id>`|turn back time on my local machine to some previous commit id|
-|`git reset --hard HEAD@{<number of commits back>}`|turn back time on my local machine to some number of commits back|
+|`git reset --hard HEAD~{<number of commits back>}`|turn back time on my local machine to some number of commits back|
 
 ***
 
-#For Your Team/Professionally:
+# For Your Team/Professionally:
 * Requires a plan, communication, and requirements beforehand. Usually branches and pull requests are small and centered on a specific goal like implementing a feature
-* Requires
 
 ## Git Flow
 ## Fork and Pull
 ![http://blog.ieeesoftware.org/2015/12/variability-management-using-github.html](assets/fork_and_pull.png)
+
+|Git Command       |Summary     |
+|------------------|------------|
+|`git remote -v`| see the verbose name of my remote|
+|`git remote show <shortname>`| detailed info on your remote |
+|`git remote add <shortname> <url>`| explicitly add a remote and assign a name|
+|`git fetch <remote>`| contribute to a specific remote|
+
 
 ## Shared Repo
 ![http://hades.github.io/2010/01/git-your-friend-not-foe-vol-2-branches/](assets/git-history.png)
@@ -68,18 +76,28 @@
 |Git Command       |Summary     |
 |------------------|------------|
 |`git branch <some branch name>`|create a branch on your local machine|
-|`git push -u origin <some branch name>`|push your local branch to the remote|
-|`git branch|see all my local branches`|
+|`git push -u origin <some branch name>`|push your local branch to the remote, set remote upstream|
+|`git branch`|see all my local branches|
 |`git checkout <some branch name>`|switch to a local branch|
 
 ### branch management commands
 |Git Command       |Summary     |
 |------------------|------------|
 |`git branch -a`|see my local and remote branches|
-|`git checkout --track origin<some remote branch name>`|get a remote branch on your local machine|
+|`git checkout --track origin/<some remote branch name>`|get a remote branch on your local machine|
 |`git branch -d <some local branch name>`|delete the local branch|
 |`git branch -D <some local branch name>`|force delete the local branch|
-|`git push -u origin <some remote branch name>`|delete a remote branch|
+|`git push origin :<some remote branch name>`|delete a remote branch|
+
+## Pull Requests
+* See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
+* Hallmarks of a good PR conversation:
+  * PRs are opened with meaningful titles and descriptions where needed.
+  * Reviewers are specific when requesting changes.
+  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture).
+  * Nice! Remember, this person is trying to make your code better.
+  * Every concern is at least discussed.
+  * Resolved quickly. Try to not pick up new work until your PR is merged.
 
 ## Pull Requests
 * See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
@@ -92,13 +110,15 @@
   * Resolved quickly. Try to not pick up new work until your PR is merged. 
 
 ## Merging and Resolving Merge Conflicts
+|Git Command       |Summary     |
+|------------------|------------|
 |`git merge <some local branch name>`|apply commits from some other the local branch to the current branch you are in|
 
 ## The Stash
 |Git Command       |Summary     |
 |------------------|------------|
 |`git stash`|put any tracked changes into stash|
-|`git stash save "<some note about what is stashed>"`|leave yourself a note about what you are stashing|
+|`git stash save "<some note about what is stashed>"`| leave yourself a note about what you are stashing |
 |`git stash list`|see a list of what is stashed|
 |`git stash pop`|take the first item off the top of the stash|
 |`git stash clear`|wipe out the stash|
@@ -116,18 +136,18 @@
 ## The Reflog
 |Git Command       |Summary     |
 |------------------|------------|
-|`git reflog`|see the history of branches across the whole repo
+|`git reflog --all`|see the history of branches across the whole repo
 
 ***
 
-# For Open Source Contributions: 
-* Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects. 
+# For Open Source Contributions:
+* Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects.
 * Shout out to open source projects like the development of Rust and Ember http://2016.phillyemergingtech.com/session/stability-without-stagnation-lessons-learned-shipping-ember/.
 
 ![From Yahuda's talk](assets/ember.jpg)
 
-# Summary 
-* It's a handy, essential tool that you can use today to improve your development experience. 
+# Summary
+* It's a handy, essential tool that you can use today to improve your development experience.
 
 # Resources
 * [https://try.github.io/](Try Git, an interactive git game)
