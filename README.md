@@ -76,7 +76,7 @@
 |Git Command       |Summary     |
 |------------------|------------|
 |`git branch <some branch name>`|create a branch on your local machine|
-|`git push -u origin <some branch name>`|push your local branch to the remote set remote upstream|
+|`git push -u origin <some branch name>`|push your local branch to the remote, set remote upstream|
 |`git branch`|see all my local branches|
 |`git checkout <some branch name>`|switch to a local branch|
 
@@ -126,7 +126,7 @@
 ## The Reflog
 |Git Command       |Summary     |
 |------------------|------------|
-|`git reflog`|see the history of branches across the whole repo
+|`git reflog --all`|see the history of branches across the whole repo
 
 ***
 
