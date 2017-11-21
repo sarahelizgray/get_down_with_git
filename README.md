@@ -18,7 +18,7 @@
 
 ![the git idiom](assets/git_idiom.png)
 
-## Review of basic git idiom 
+## Review of basic git idiom
 |Git Command       |Summary     |
 |------------------|------------|
 |`git status`        |see status of local repo, what's changed, what's committed, what's new|
@@ -52,7 +52,7 @@
 
 ***
 
-#For Your Team/Professionally:
+# For Your Team/Professionally:
 * Requires a plan, communication, and requirements beforehand. Usually branches and pull requests are small and centered on a specific goal like implementing a feature
 * Requires
 
@@ -89,7 +89,7 @@
   * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
   * Nice! Remember, this person is trying to make your code better.
   * Every concern is addressed and addressed means at least discussed.
-  * Resolved quickly. Try to not pick up new work until your PR is merged. 
+  * Resolved quickly. Try to not pick up new work until your PR is merged.
 
 ## Merging and Resolving Merge Conflicts
 |`git merge <some local branch name>`|apply commits from some other the local branch to the current branch you are in|
@@ -120,14 +120,14 @@
 
 ***
 
-# For Open Source Contributions: 
-* Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects. 
+# For Open Source Contributions:
+* Branches are used to manage not just feature creation, but also the life cycle and continued development of many projects.
 * Shout out to open source projects like the development of Rust and Ember http://2016.phillyemergingtech.com/session/stability-without-stagnation-lessons-learned-shipping-ember/.
 
 ![From Yahuda's talk](assets/ember.jpg)
 
-# Summary 
-* It's a handy, essential tool that you can use today to improve your development experience. 
+# Summary
+* It's a handy, essential tool that you can use today to improve your development experience.
 
 # Resources
 * [https://try.github.io/](Try Git, an interactive git game)
