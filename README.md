@@ -36,6 +36,15 @@
 |`git diff --cached` |show me, line by line, what has changed in added files|
 |`git commit --amend`|alter the commit message of a staged commit|
 
+
+## Managing Stash
+|Git Command       |Summary     |
+|------------------|------------|
+|`git stash save <some descriptor>`| put aside tracked files |
+|`git stash list`| see things I have stashed |
+|`git stash pop`| apply item from top of the stash |
+|`git stash clear`| wipe out the stash |
+
 ***
 
 # How it Improves Your Workflow
@@ -106,7 +115,7 @@
 |Git Command       |Summary     |
 |------------------|------------|
 |`git stash`|put any tracked changes into stash|
-|`git stash save "<some note about what is stashed>"`|leave yourself a note about what you are stashing|
+|`git stash save "<some note about what is stashed>"`| leave yourself a note about what you are stashing |
 |`git stash list`|see a list of what is stashed|
 |`git stash pop`|take the first item off the top of the stash|
 |`git stash clear`|wipe out the stash|
