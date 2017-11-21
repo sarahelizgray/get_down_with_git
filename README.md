@@ -37,14 +37,6 @@
 |`git commit --amend`|alter the commit message of a staged commit|
 
 
-## Managing Stash
-|Git Command       |Summary     |
-|------------------|------------|
-|`git stash save <some descriptor>`| put aside tracked files |
-|`git stash list`| see things I have stashed |
-|`git stash pop`| apply item from top of the stash |
-|`git stash clear`| wipe out the stash |
-
 ***
 
 # How it Improves Your Workflow
