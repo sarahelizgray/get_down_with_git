@@ -109,6 +109,8 @@
   * Resolved quickly. Try to not pick up new work until your PR is merged.
 
 ## Merging and Resolving Merge Conflicts
+|Git Command       |Summary     |
+|------------------|------------|
 |`git merge <some local branch name>`|apply commits from some other the local branch to the current branch you are in|
 
 ## The Stash
