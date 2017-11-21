@@ -64,7 +64,7 @@
 |------------------|------------|
 |`git remote -v`| see the verbose name of my remote|
 |`git remote show <shortname>`| detailed info on your remote |
-|`git remote <shortname> <url>`| explicitly add a remote|
+|`git remote add <shortname> <url>`| explicitly add a remote and assign a name|
 |`git fetch <remote>`| contribute to a specific remote|
 
 
