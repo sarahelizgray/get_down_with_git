@@ -49,7 +49,7 @@
 |`git log`           |show long form commit info|
 |`git log --pretty=oneline`| show short form commit info|
 |`git reset --hard <some commit id>`|turn back time on my local machine to some previous commit id|
-|`git reset --hard HEAD@{<number of commits back>}`|turn back time on my local machine to some number of commits back|
+|`git reset --hard HEAD~{<number of commits back>}`|turn back time on my local machine to some number of commits back|
 
 ***
 
