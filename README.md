@@ -99,6 +99,16 @@
   * Every concern is at least discussed.
   * Resolved quickly. Try to not pick up new work until your PR is merged.
 
+## Pull Requests
+* See [github documentation](https://help.github.com/articles/about-pull-requests/) for the hows
+* Hallmarks of a good PR conversation:
+  * PRs are opened with meaningful titles and descriptions where needed.
+  * Reviewers are specific when requesting changes.
+  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
+  * Nice! Remember, this person is trying to make your code better.
+  * Every concern is addressed and addressed means at least discussed.
+  * Resolved quickly. Try to not pick up new work until your PR is merged. 
+
 ## Merging and Resolving Merge Conflicts
 |Git Command       |Summary     |
 |------------------|------------|
