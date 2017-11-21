@@ -6,7 +6,7 @@
 * What is source control and why is it important.
 * Touch on other source control options and hosts.
 * Source control is one aspect of professional deploy cycle -- works hand in hand with continuous integration and the code review process.
-* It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did. Great for your upcoming team project!
+* It's more than just checking in code, it's leaving a breadcrumb trail for ourselves and our partners to understand how and why we constructed things the way we did.
 
 ***
 
@@ -41,7 +41,7 @@
 
 # How it Improves Your Workflow
 * Check out the log, see that you've left yourself some notes
-* Gives you lots of beak points. 'git reset' to previous working commit.
+* Gives you lots of break points. 'git reset' to previous working commit.
 
 ## Git Log
 |Git Command       |Summary     |
@@ -55,7 +55,6 @@
 
 # For Your Team/Professionally:
 * Requires a plan, communication, and requirements beforehand. Usually branches and pull requests are small and centered on a specific goal like implementing a feature
-* Requires
 
 ## Git Flow
 ## Fork and Pull
@@ -95,9 +94,9 @@
 * Hallmarks of a good PR conversation:
   * PRs are opened with meaningful titles and descriptions where needed.
   * Reviewers are specific when requesting changes.
-  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture)
+  * Addresses both the trivial (style, naming) and non-trivial (logic and architecture).
   * Nice! Remember, this person is trying to make your code better.
-  * Every concern is addressed and addressed means at least discussed.
+  * Every concern is at least discussed.
   * Resolved quickly. Try to not pick up new work until your PR is merged.
 
 ## Merging and Resolving Merge Conflicts
